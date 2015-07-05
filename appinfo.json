@@ -1,0 +1,41 @@
+{
+  "uuid": "8eb67cfe-d036-4adc-aa88-f187e702f945",
+  "shortName": "halo-watchface",
+  "longName": "halo-watchface",
+  "companyName": "blitterfly.com",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "KEY_TWEET": 0
+  },
+  "resources": {
+    "media": [
+    {
+		"type": "png",
+		"name": "IMAGE_BACKGROUND",
+		"file": "images/halo-watchface.png"
+	},
+    {
+		"type": "png",
+		"name": "IMAGE_TWITTER_ICON",
+		"file": "images/icon-twitter-tiny.png"
+	},
+	{
+		"type": "font",
+		"name": "FONT_BAKSHEESH_44",
+		"file": "fonts/baksheesh-bold.ttf",
+		"compatibility":"2.7"
+	},
+	{
+		"type": "font",
+		"name": "FONT_BAKSHEESH_11",
+		"file": "fonts/baksheesh-bold.ttf",
+		"compatibility":"2.7"
+	}
+	]
+  }
+}
