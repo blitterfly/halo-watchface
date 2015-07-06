@@ -4,10 +4,9 @@ Simple watchface with a Halo logo and updates from the latest @Halo Twitter feed
 
 ## Dependencies
 
- * [CMake 3.0](http://www.cmake.org/)
- * [SQLite 3.8.10.2](https://www.sqlite.org/) (included in repository)
- * [Google Protobuf 2.6.1](https://github.com/google/protobuf)
- * [FLTK 1.3.3](http://www.fltk.org/index.php)
+ * [Pebble SDK 3.0](http://developer.getpebble.com/sdk/)
+ * [UglifyJS 2](https://github.com/mishoo/UglifyJS2)
+ * [CryptoJS](https://code.google.com/p/crypto-js/) (included in repository)
 
 ## License
 
