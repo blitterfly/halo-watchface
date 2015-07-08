@@ -70,7 +70,7 @@ static void main_window_load(Window * window) {
 	layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(s_twitter_icon_layer));
 	
 	// Create tweet Layer
-	s_tweet_layer = text_layer_create(GRect(2, 124, 140, 36));
+	s_tweet_layer = text_layer_create(GRect(2, 120, 140, 48));
 	text_layer_set_background_color(s_tweet_layer, GColorClear);
 	text_layer_set_text_color(s_tweet_layer, GColorDukeBlue);
 	text_layer_set_text_alignment(s_tweet_layer, GTextAlignmentLeft);
@@ -87,8 +87,9 @@ static void main_window_load(Window * window) {
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_time_layer));
 	
 	// Create second custom font, apply it and add to Window
-	s_tweet_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_BAKSHEESH_11));
-	text_layer_set_font(s_tweet_layer, s_tweet_font);
+	//s_tweet_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_04B03_18));
+	//text_layer_set_font(s_tweet_layer, s_tweet_font);
+	text_layer_set_font(s_tweet_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_tweet_layer));
 	
 	// Register with TickTimerService

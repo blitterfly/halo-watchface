@@ -32,7 +32,7 @@ function getTweets() {
 		// Send to Pebble
 		Pebble.sendAppMessage(dictionary,
 			function(e) {
-				onsole.log('Tweet sent to Pebble successfully!');
+				console.log('Tweet sent to Pebble successfully!');
 			},
 			function(e) {
 				console.log('Error sending tweet to Pebble!');
